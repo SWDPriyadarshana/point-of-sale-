@@ -1,0 +1,548 @@
+17-03-2019 11:21:51.697 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 3536 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 11:21:51.716 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 11:21:51.891 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77a7fb86: startup date [Sun Mar 17 11:21:51 IST 2019]; root of context hierarchy
+17-03-2019 11:21:53.311 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ec9feb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 11:21:53.351 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e777c6ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 11:21:53.357 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 11:21:53.359 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@66462b89' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 11:21:53.366 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c4c699f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 11:21:53.373 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 11:21:53.987 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 11:21:54.015 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 11:21:54.015 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 11:21:54.026 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\opencv\build\x64\vc14\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\swipl\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\OpenSSL-Win32\bin;C:\opencv\build\x86\vc12\bin\;C:\Users\Ranga Lankathilaka\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ranga Lankathilaka\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ranga Lankathilaka\AppData\Roaming\npm;E:\noetic\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+17-03-2019 11:21:54.126 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 11:21:54.126 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2235 ms
+17-03-2019 11:21:54.226 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 11:21:54.227 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 11:21:54.228 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 11:21:54.228 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 11:21:54.229 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 11:21:54.229 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 11:21:54.230 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 11:21:54.393 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-03-2019 11:21:54.396 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 11:21:54.631 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-03-2019 11:21:54.669 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 11:21:54.680 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 11:21:54.741 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.17.Final}
+17-03-2019 11:21:54.743 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-03-2019 11:21:54.809 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17-03-2019 11:21:54.913 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 11:21:55.088 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 11:21:55.088 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 11:21:55.432 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 11:21:55.486 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 11:21:56.007 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter.afterPropertiesSet - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+17-03-2019 11:21:56.008 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenEnhancer' defined in class path resource [lk/eyepax/demo/security/OAuth2Config.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: For MAC signing you do not need to specify the verifier key separately, and if you do it must match the signing key
+17-03-2019 11:21:56.009 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 11:21:56.010 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-03-2019 11:21:56.013 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-03-2019 11:21:56.014 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+17-03-2019 11:21:56.025 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17-03-2019 11:21:56.033 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenEnhancer' defined in class path resource [lk/eyepax/demo/security/OAuth2Config.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: For MAC signing you do not need to specify the verifier key separately, and if you do it must match the signing key
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at lk.eyepax.demo.Application.main(Application.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: For MAC signing you do not need to specify the verifier key separately, and if you do it must match the signing key
+	at org.springframework.util.Assert.state(Assert.java:73)
+	at org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter.afterPropertiesSet(JwtAccessTokenConverter.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 21 common frames omitted
+17-03-2019 14:48:53.534 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 19424 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 14:48:53.535 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 14:48:53.597 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@49a7037a: startup date [Sun Mar 17 14:48:53 IST 2019]; root of context hierarchy
+17-03-2019 14:48:54.759 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8d8b57f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 14:48:54.798 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$91867db9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 14:48:54.805 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 14:48:54.807 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3f88ec9f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 14:48:54.811 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b65b206b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 14:48:54.821 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 14:48:55.260 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 14:48:55.276 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 14:48:55.277 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 14:48:55.280 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\opencv\build\x64\vc14\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\swipl\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\OpenSSL-Win32\bin;C:\opencv\build\x86\vc12\bin\;C:\Users\Ranga Lankathilaka\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ranga Lankathilaka\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ranga Lankathilaka\AppData\Roaming\npm;E:\noetic\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+17-03-2019 14:48:55.356 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 14:48:55.356 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1759 ms
+17-03-2019 14:48:55.453 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 14:48:55.454 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 14:48:55.454 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 14:48:55.454 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 14:48:55.455 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 14:48:55.455 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 14:48:55.456 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 14:48:55.584 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-03-2019 14:48:55.586 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 14:48:55.811 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-03-2019 14:48:55.846 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 14:48:55.856 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 14:48:55.912 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.17.Final}
+17-03-2019 14:48:55.914 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-03-2019 14:48:55.954 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17-03-2019 14:48:56.054 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 14:48:56.259 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 14:48:56.259 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 14:48:56.542 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 14:48:56.592 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 14:48:57.280 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter.afterPropertiesSet - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+17-03-2019 14:48:57.282 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenEnhancer' defined in class path resource [lk/eyepax/demo/security/OAuth2Config.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: For MAC signing you do not need to specify the verifier key separately, and if you do it must match the signing key
+17-03-2019 14:48:57.284 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 14:48:57.286 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-03-2019 14:48:57.290 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-03-2019 14:48:57.293 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+17-03-2019 14:48:57.308 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17-03-2019 14:48:57.322 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenEnhancer' defined in class path resource [lk/eyepax/demo/security/OAuth2Config.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: For MAC signing you do not need to specify the verifier key separately, and if you do it must match the signing key
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at lk.eyepax.demo.Application.main(Application.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: For MAC signing you do not need to specify the verifier key separately, and if you do it must match the signing key
+	at org.springframework.util.Assert.state(Assert.java:73)
+	at org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter.afterPropertiesSet(JwtAccessTokenConverter.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 21 common frames omitted
+17-03-2019 16:58:36.725 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 12920 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 16:58:36.747 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 16:58:36.812 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e9db796: startup date [Sun Mar 17 16:58:36 IST 2019]; root of context hierarchy
+17-03-2019 16:58:38.055 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ce222d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 16:58:38.778 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 16:58:38.795 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 16:58:38.795 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 16:58:38.798 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\opencv\build\x64\vc14\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\swipl\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\OpenSSL-Win32\bin;C:\opencv\build\x86\vc12\bin\;C:\Users\Ranga Lankathilaka\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ranga Lankathilaka\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ranga Lankathilaka\AppData\Roaming\npm;E:\noetic\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+17-03-2019 16:58:38.907 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 16:58:38.908 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2096 ms
+17-03-2019 16:58:39.012 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 16:58:39.013 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 16:58:39.014 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 16:58:39.014 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 16:58:39.015 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 16:58:39.016 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 16:58:39.018 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 16:58:39.157 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-03-2019 16:58:39.158 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 16:58:39.370 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-03-2019 16:58:39.401 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 16:58:39.412 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 16:58:39.468 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.17.Final}
+17-03-2019 16:58:39.470 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-03-2019 16:58:39.514 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17-03-2019 16:58:39.630 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 16:58:39.810 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 16:58:39.810 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 16:58:40.222 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 16:58:40.344 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 16:58:40.800 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAuth2Config': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=authenticationManagerBean)}
+17-03-2019 16:58:40.801 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 16:58:40.802 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-03-2019 16:58:40.805 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-03-2019 16:58:40.807 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+17-03-2019 16:58:40.817 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17-03-2019 16:58:41.236 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAuth2Config': Unsatisfied dependency expressed through field 'authenticationManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=authenticationManagerBean)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:586)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at lk.eyepax.demo.Application.main(Application.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=authenticationManagerBean)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1506)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	... 24 common frames omitted
+17-03-2019 16:59:05.234 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 5260 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 16:59:05.237 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 16:59:05.285 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fc381c4: startup date [Sun Mar 17 16:59:05 IST 2019]; root of context hierarchy
+17-03-2019 16:59:06.498 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abba3111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 16:59:06.931 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 16:59:06.948 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 16:59:06.948 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 16:59:06.952 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\opencv\build\x64\vc14\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\swipl\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\OpenSSL-Win32\bin;C:\opencv\build\x86\vc12\bin\;C:\Users\Ranga Lankathilaka\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ranga Lankathilaka\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ranga Lankathilaka\AppData\Roaming\npm;E:\noetic\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+17-03-2019 16:59:07.058 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 16:59:07.059 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1774 ms
+17-03-2019 16:59:07.147 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 16:59:07.147 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 16:59:07.147 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 16:59:07.148 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 16:59:07.148 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 16:59:07.148 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 16:59:07.150 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 16:59:07.280 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-03-2019 16:59:07.281 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 16:59:07.365 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-03-2019 16:59:07.545 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 16:59:07.556 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 16:59:07.612 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.17.Final}
+17-03-2019 16:59:07.613 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-03-2019 16:59:07.649 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17-03-2019 16:59:07.741 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 16:59:07.938 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 16:59:07.938 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 16:59:08.231 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 16:59:08.284 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 16:59:08.684 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 16:59:08.954 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fc381c4: startup date [Sun Mar 17 16:59:05 IST 2019]; root of context hierarchy
+17-03-2019 16:59:08.984 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-03-2019 16:59:09.017 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[GET]}" onto public lk.eyepax.demo.dto.CustomerDTO lk.eyepax.demo.controller.CustomerController.findCustomer(java.lang.String)
+17-03-2019 16:59:09.019 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.CustomerController.saveCustomer(java.lang.String,lk.eyepax.demo.dto.CustomerDTO)
+17-03-2019 16:59:09.019 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[DELETE]}" onto public boolean lk.eyepax.demo.controller.CustomerController.deleteCustomer(java.lang.String)
+17-03-2019 16:59:09.020 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[POST]}" onto public boolean lk.eyepax.demo.controller.CustomerController.updateCustomer(java.lang.String,lk.eyepax.demo.dto.CustomerDTO)
+17-03-2019 16:59:09.021 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.CustomerDTO> lk.eyepax.demo.controller.CustomerController.findAllCustomers()
+17-03-2019 16:59:09.021 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET],params=[action=count]}" onto public long lk.eyepax.demo.controller.CustomerController.getCustomersCount()
+17-03-2019 16:59:09.022 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET],params=[action=search && q]}" onto public java.util.List<lk.eyepax.demo.dto.CustomerDTO> lk.eyepax.demo.controller.CustomerController.findCustomersByAddressLike(java.lang.String)
+17-03-2019 16:59:09.025 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[DELETE]}" onto public boolean lk.eyepax.demo.controller.ItemController.deleteItem(java.lang.String)
+17-03-2019 16:59:09.026 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.ItemDTO> lk.eyepax.demo.controller.ItemController.findAllItems()
+17-03-2019 16:59:09.027 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[POST]}" onto public boolean lk.eyepax.demo.controller.ItemController.updatItem(java.lang.String,lk.eyepax.demo.dto.ItemDTO)
+17-03-2019 16:59:09.028 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.ItemController.saveItem(java.lang.String,lk.eyepax.demo.dto.ItemDTO)
+17-03-2019 16:59:09.029 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[GET]}" onto public lk.eyepax.demo.dto.ItemDTO lk.eyepax.demo.controller.ItemController.findItemById(java.lang.String)
+17-03-2019 16:59:09.029 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[GET],params=[action=count]}" onto public long lk.eyepax.demo.controller.ItemController.getCustomersCount()
+17-03-2019 16:59:09.032 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.OrderDTO> lk.eyepax.demo.controller.OrderController.findAllOrders()
+17-03-2019 16:59:09.032 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders/{id}],methods=[GET]}" onto public lk.eyepax.demo.dto.OrderDTO lk.eyepax.demo.controller.OrderController.findOrderById(java.lang.String)
+17-03-2019 16:59:09.033 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders/{id}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.OrderController.saveOrder(java.lang.String,lk.eyepax.demo.dto.OrderDTO)
+17-03-2019 16:59:09.035 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-03-2019 16:59:09.036 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-03-2019 16:59:09.059 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 16:59:09.059 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 16:59:09.071 [restartedMain] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - Detected @ExceptionHandler methods in appWideExceptionHandler
+17-03-2019 16:59:10.113 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cf649e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@240f510c, org.springframework.security.web.header.HeaderWriterFilter@3f1fc015, org.springframework.security.web.csrf.CsrfFilter@2d33e1cb, org.springframework.security.web.authentication.logout.LogoutFilter@1a39e5a2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@678cdcff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e27fe5c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45cdb8bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5699ff9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52a0ea00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e2161a4, org.springframework.security.web.session.SessionManagementFilter@58e624fc, org.springframework.security.web.access.ExceptionTranslationFilter@567b17d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de3ae2e]
+17-03-2019 16:59:10.339 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+17-03-2019 16:59:10.389 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+17-03-2019 16:59:10.391 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+17-03-2019 16:59:10.404 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+17-03-2019 16:59:10.551 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-03-2019 16:59:10.562 [restartedMain] INFO  lk.eyepax.demo.Application.logStarted - Started Application in 5.681 seconds (JVM running for 6.449)
+17-03-2019 16:59:19.584 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17-03-2019 16:59:19.584 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+17-03-2019 16:59:19.613 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+17-03-2019 17:19:44.161 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+17-03-2019 17:19:44.161 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fc381c4: startup date [Sun Mar 17 16:59:05 IST 2019]; root of context hierarchy
+17-03-2019 17:19:44.165 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+17-03-2019 17:19:44.166 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+17-03-2019 17:19:44.168 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:19:44.169 [RMI TCP Connection(48)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-03-2019 17:19:44.173 [RMI TCP Connection(48)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-03-2019 17:19:50.316 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 15648 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 17:19:50.318 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 17:19:50.368 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6097131e: startup date [Sun Mar 17 17:19:50 IST 2019]; root of context hierarchy
+17-03-2019 17:19:51.554 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cd5cc25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 17:19:52.001 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 17:19:52.020 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 17:19:52.020 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 17:19:52.023 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\opencv\build\x64\vc14\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\swipl\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\OpenSSL-Win32\bin;C:\opencv\build\x86\vc12\bin\;C:\Users\Ranga Lankathilaka\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ranga Lankathilaka\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ranga Lankathilaka\AppData\Roaming\npm;E:\noetic\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+17-03-2019 17:19:52.125 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 17:19:52.126 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1759 ms
+17-03-2019 17:19:52.218 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 17:19:52.219 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 17:19:52.220 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 17:19:52.220 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 17:19:52.222 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 17:19:52.222 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 17:19:52.224 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 17:19:52.361 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-03-2019 17:19:52.363 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 17:19:52.458 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-03-2019 17:19:52.629 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:19:52.639 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 17:19:52.692 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.17.Final}
+17-03-2019 17:19:52.694 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-03-2019 17:19:52.722 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17-03-2019 17:19:52.827 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 17:19:53.011 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 17:19:53.011 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 17:19:53.326 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 17:19:53.379 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:19:53.696 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customDetailsService' defined in file [E:\DEP\Git\SpringBoot-al\backend\target\classes\lk\eyepax\demo\service\CustomDetailsService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lk.eyepax.demo.service.CustomDetailsService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import lk.eyepax.demo.entity.UserEntity cannot be resolved
+	The import lk.eyepax.demo.repository.OAuthDao cannot be resolved
+	OAuthDao cannot be resolved to a type
+	UserEntity cannot be resolved to a type
+	OAuthDao cannot be resolved to a type
+
+17-03-2019 17:19:53.697 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:19:53.699 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-03-2019 17:19:53.703 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-03-2019 17:19:53.705 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+17-03-2019 17:19:53.728 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17-03-2019 17:19:53.742 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customDetailsService' defined in file [E:\DEP\Git\SpringBoot-al\backend\target\classes\lk\eyepax\demo\service\CustomDetailsService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lk.eyepax.demo.service.CustomDetailsService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import lk.eyepax.demo.entity.UserEntity cannot be resolved
+	The import lk.eyepax.demo.repository.OAuthDao cannot be resolved
+	OAuthDao cannot be resolved to a type
+	UserEntity cannot be resolved to a type
+	OAuthDao cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at lk.eyepax.demo.Application.main(Application.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [lk.eyepax.demo.service.CustomDetailsService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import lk.eyepax.demo.entity.UserEntity cannot be resolved
+	The import lk.eyepax.demo.repository.OAuthDao cannot be resolved
+	OAuthDao cannot be resolved to a type
+	UserEntity cannot be resolved to a type
+	OAuthDao cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1221)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import lk.eyepax.demo.entity.UserEntity cannot be resolved
+	The import lk.eyepax.demo.repository.OAuthDao cannot be resolved
+	OAuthDao cannot be resolved to a type
+	UserEntity cannot be resolved to a type
+	OAuthDao cannot be resolved to a type
+
+	at lk.eyepax.demo.service.CustomDetailsService.<init>(CustomDetailsService.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
+	... 24 common frames omitted
+17-03-2019 17:20:46.779 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 8272 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 17:20:46.782 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 17:20:46.825 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71131652: startup date [Sun Mar 17 17:20:46 IST 2019]; root of context hierarchy
+17-03-2019 17:20:47.941 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a251feeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 17:20:48.358 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 17:20:48.376 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 17:20:48.376 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 17:20:48.394 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\opencv\build\x64\vc14\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\swipl\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\OpenSSL-Win32\bin;C:\opencv\build\x86\vc12\bin\;C:\Users\Ranga Lankathilaka\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ranga Lankathilaka\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ranga Lankathilaka\AppData\Roaming\npm;E:\noetic\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+17-03-2019 17:20:48.482 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 17:20:48.482 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1657 ms
+17-03-2019 17:20:48.564 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 17:20:48.564 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 17:20:48.565 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 17:20:48.565 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 17:20:48.565 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 17:20:48.565 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 17:20:48.567 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 17:20:48.700 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-03-2019 17:20:48.702 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 17:20:48.801 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-03-2019 17:20:48.975 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:20:48.987 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 17:20:49.046 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.17.Final}
+17-03-2019 17:20:49.046 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-03-2019 17:20:49.074 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17-03-2019 17:20:49.170 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 17:20:49.362 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 17:20:49.362 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 17:20:49.661 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 17:20:49.715 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:20:50.102 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 17:20:50.383 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71131652: startup date [Sun Mar 17 17:20:46 IST 2019]; root of context hierarchy
+17-03-2019 17:20:50.414 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-03-2019 17:20:50.476 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.CustomerController.saveCustomer(java.lang.String,lk.eyepax.demo.dto.CustomerDTO)
+17-03-2019 17:20:50.480 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[POST]}" onto public boolean lk.eyepax.demo.controller.CustomerController.updateCustomer(java.lang.String,lk.eyepax.demo.dto.CustomerDTO)
+17-03-2019 17:20:50.481 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.CustomerDTO> lk.eyepax.demo.controller.CustomerController.findAllCustomers()
+17-03-2019 17:20:50.482 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[GET]}" onto public lk.eyepax.demo.dto.CustomerDTO lk.eyepax.demo.controller.CustomerController.findCustomer(java.lang.String)
+17-03-2019 17:20:50.482 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[DELETE]}" onto public boolean lk.eyepax.demo.controller.CustomerController.deleteCustomer(java.lang.String)
+17-03-2019 17:20:50.483 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET],params=[action=search && q]}" onto public java.util.List<lk.eyepax.demo.dto.CustomerDTO> lk.eyepax.demo.controller.CustomerController.findCustomersByAddressLike(java.lang.String)
+17-03-2019 17:20:50.483 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET],params=[action=count]}" onto public long lk.eyepax.demo.controller.CustomerController.getCustomersCount()
+17-03-2019 17:20:50.489 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.ItemController.saveItem(java.lang.String,lk.eyepax.demo.dto.ItemDTO)
+17-03-2019 17:20:50.491 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.ItemDTO> lk.eyepax.demo.controller.ItemController.findAllItems()
+17-03-2019 17:20:50.491 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[DELETE]}" onto public boolean lk.eyepax.demo.controller.ItemController.deleteItem(java.lang.String)
+17-03-2019 17:20:50.491 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[GET]}" onto public lk.eyepax.demo.dto.ItemDTO lk.eyepax.demo.controller.ItemController.findItemById(java.lang.String)
+17-03-2019 17:20:50.492 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[POST]}" onto public boolean lk.eyepax.demo.controller.ItemController.updatItem(java.lang.String,lk.eyepax.demo.dto.ItemDTO)
+17-03-2019 17:20:50.494 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[GET],params=[action=count]}" onto public long lk.eyepax.demo.controller.ItemController.getCustomersCount()
+17-03-2019 17:20:50.497 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders/{id}],methods=[GET]}" onto public lk.eyepax.demo.dto.OrderDTO lk.eyepax.demo.controller.OrderController.findOrderById(java.lang.String)
+17-03-2019 17:20:50.499 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders/{id}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.OrderController.saveOrder(java.lang.String,lk.eyepax.demo.dto.OrderDTO)
+17-03-2019 17:20:50.500 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.OrderDTO> lk.eyepax.demo.controller.OrderController.findAllOrders()
+17-03-2019 17:20:50.507 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-03-2019 17:20:50.509 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-03-2019 17:20:50.556 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 17:20:50.556 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 17:20:50.586 [restartedMain] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - Detected @ExceptionHandler methods in appWideExceptionHandler
+17-03-2019 17:20:50.851 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: 2c9f869a-2a7d-4675-b78c-f9a8c5a7a6ec
+
+17-03-2019 17:20:51.035 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@742e33f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5113c338, org.springframework.security.web.header.HeaderWriterFilter@2d33e1cb, org.springframework.security.web.csrf.CsrfFilter@2590a33a, org.springframework.security.web.authentication.logout.LogoutFilter@4d2750b5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@630d4b78, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@31d4ad8e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39a827c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d58a1fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@347bb41c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e925dce, org.springframework.security.web.session.SessionManagementFilter@13687c83, org.springframework.security.web.access.ExceptionTranslationFilter@7f05820e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f8ab350]
+17-03-2019 17:20:51.123 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+17-03-2019 17:20:51.150 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+17-03-2019 17:20:51.151 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+17-03-2019 17:20:51.155 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+17-03-2019 17:20:51.184 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-03-2019 17:20:51.188 [restartedMain] INFO  lk.eyepax.demo.Application.logStarted - Started Application in 4.698 seconds (JVM running for 5.463)
+17-03-2019 17:20:57.521 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17-03-2019 17:20:57.521 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+17-03-2019 17:20:57.539 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+17-03-2019 17:24:07.445 [Thread-8] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71131652: startup date [Sun Mar 17 17:20:46 IST 2019]; root of context hierarchy
+17-03-2019 17:24:07.454 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+17-03-2019 17:24:07.457 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+17-03-2019 17:24:07.460 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:24:07.465 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-03-2019 17:24:07.474 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-03-2019 17:24:08.046 [restartedMain] INFO  lk.eyepax.demo.Application.main - Application is strated
+17-03-2019 17:24:08.072 [restartedMain] INFO  lk.eyepax.demo.Application.logStarting - Starting Application on DESKTOP-OGDU8R5 with PID 8272 (E:\DEP\Git\SpringBoot-al\backend\target\classes started by Ranga Lankathilaka in E:\DEP\Git\SpringBoot-al\backend)
+17-03-2019 17:24:08.073 [restartedMain] INFO  lk.eyepax.demo.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-03-2019 17:24:08.075 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ed28aac: startup date [Sun Mar 17 17:24:08 IST 2019]; root of context hierarchy
+17-03-2019 17:24:08.406 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a251feeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-03-2019 17:24:08.493 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-03-2019 17:24:08.494 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-03-2019 17:24:08.494 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+17-03-2019 17:24:08.511 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-03-2019 17:24:08.512 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+17-03-2019 17:24:08.536 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-03-2019 17:24:08.536 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-03-2019 17:24:08.536 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-03-2019 17:24:08.536 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-03-2019 17:24:08.536 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean.configure - Mapping filter: 'springSecurityFilterChain' to: [/*]
+17-03-2019 17:24:08.536 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+17-03-2019 17:24:08.537 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet webServlet mapped to [/h2-console/*]
+17-03-2019 17:24:08.572 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Starting...
+17-03-2019 17:24:08.572 [restartedMain] WARN  c.z.hikari.util.DriverDataSource.<init> - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+17-03-2019 17:24:08.576 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Start completed.
+17-03-2019 17:24:08.584 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:24:08.584 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-03-2019 17:24:08.595 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+17-03-2019 17:24:08.609 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000038: Composite-id class does not override equals(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 17:24:08.610 [restartedMain] WARN  org.hibernate.mapping.RootClass.checkCompositeIdentifier - HHH000039: Composite-id class does not override hashCode(): lk.eyepax.demo.entity.OrderDetail_PK
+17-03-2019 17:24:08.670 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+17-03-2019 17:24:08.671 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:24:08.785 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 17:24:08.854 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ed28aac: startup date [Sun Mar 17 17:24:08 IST 2019]; root of context hierarchy
+17-03-2019 17:24:08.861 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-03-2019 17:24:08.866 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.CustomerController.saveCustomer(java.lang.String,lk.eyepax.demo.dto.CustomerDTO)
+17-03-2019 17:24:08.867 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[POST]}" onto public boolean lk.eyepax.demo.controller.CustomerController.updateCustomer(java.lang.String,lk.eyepax.demo.dto.CustomerDTO)
+17-03-2019 17:24:08.867 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.CustomerDTO> lk.eyepax.demo.controller.CustomerController.findAllCustomers()
+17-03-2019 17:24:08.868 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[GET]}" onto public lk.eyepax.demo.dto.CustomerDTO lk.eyepax.demo.controller.CustomerController.findCustomer(java.lang.String)
+17-03-2019 17:24:08.868 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers/{id}],methods=[DELETE]}" onto public boolean lk.eyepax.demo.controller.CustomerController.deleteCustomer(java.lang.String)
+17-03-2019 17:24:08.869 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET],params=[action=search && q]}" onto public java.util.List<lk.eyepax.demo.dto.CustomerDTO> lk.eyepax.demo.controller.CustomerController.findCustomersByAddressLike(java.lang.String)
+17-03-2019 17:24:08.870 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/customers],methods=[GET],params=[action=count]}" onto public long lk.eyepax.demo.controller.CustomerController.getCustomersCount()
+17-03-2019 17:24:08.872 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.ItemController.saveItem(java.lang.String,lk.eyepax.demo.dto.ItemDTO)
+17-03-2019 17:24:08.873 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.ItemDTO> lk.eyepax.demo.controller.ItemController.findAllItems()
+17-03-2019 17:24:08.874 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[DELETE]}" onto public boolean lk.eyepax.demo.controller.ItemController.deleteItem(java.lang.String)
+17-03-2019 17:24:08.875 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items/{code}],methods=[GET]}" onto public lk.eyepax.demo.dto.ItemDTO lk.eyepax.demo.controller.ItemController.findItemById(java.lang.String)
+17-03-2019 17:24:08.875 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[POST]}" onto public boolean lk.eyepax.demo.controller.ItemController.updatItem(java.lang.String,lk.eyepax.demo.dto.ItemDTO)
+17-03-2019 17:24:08.876 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/items],methods=[GET],params=[action=count]}" onto public long lk.eyepax.demo.controller.ItemController.getCustomersCount()
+17-03-2019 17:24:08.877 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders/{id}],methods=[GET]}" onto public lk.eyepax.demo.dto.OrderDTO lk.eyepax.demo.controller.OrderController.findOrderById(java.lang.String)
+17-03-2019 17:24:08.877 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders/{id}],methods=[PUT]}" onto public void lk.eyepax.demo.controller.OrderController.saveOrder(java.lang.String,lk.eyepax.demo.dto.OrderDTO)
+17-03-2019 17:24:08.878 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/api/v1/orders],methods=[GET]}" onto public java.util.List<lk.eyepax.demo.dto.OrderDTO> lk.eyepax.demo.controller.OrderController.findAllOrders()
+17-03-2019 17:24:08.879 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-03-2019 17:24:08.880 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-03-2019 17:24:08.892 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 17:24:08.893 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-03-2019 17:24:08.900 [restartedMain] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - Detected @ExceptionHandler methods in appWideExceptionHandler
+17-03-2019 17:24:08.993 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: f1ea7275-c6d3-441c-864f-a3e8911571a5
+
+17-03-2019 17:24:09.008 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71301394, org.springframework.security.web.context.SecurityContextPersistenceFilter@4abb3d1b, org.springframework.security.web.header.HeaderWriterFilter@d93a5af, org.springframework.security.web.csrf.CsrfFilter@5a320408, org.springframework.security.web.authentication.logout.LogoutFilter@70a147e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2be2c370, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@63e1fd65, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40760dbd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@686d16ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78c37895, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dbcdab4, org.springframework.security.web.session.SessionManagementFilter@636b5b, org.springframework.security.web.access.ExceptionTranslationFilter@384346e0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59d3fb1]
+17-03-2019 17:24:09.030 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+17-03-2019 17:24:09.059 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+17-03-2019 17:24:09.061 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+17-03-2019 17:24:09.067 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+17-03-2019 17:24:09.077 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-03-2019 17:24:09.082 [restartedMain] INFO  lk.eyepax.demo.Application.logStarted - Started Application in 1.033 seconds (JVM running for 203.358)
+17-03-2019 17:24:09.100 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+17-03-2019 17:33:09.002 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+17-03-2019 17:33:09.004 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ed28aac: startup date [Sun Mar 17 17:24:08 IST 2019]; root of context hierarchy
+17-03-2019 17:33:09.018 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+17-03-2019 17:33:09.019 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+17-03-2019 17:33:09.023 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-03-2019 17:33:09.025 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+17-03-2019 17:33:09.040 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown completed.
